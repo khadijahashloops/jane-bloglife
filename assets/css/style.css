@@ -1,0 +1,326 @@
+body, hr {
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+   font-family:jane;
+   src: url(../fonts/Oswald/static/Oswald-Regular.ttf);
+}
+.nav{
+	display: block;
+
+}
+.nav-icons{
+	display: flex;
+    justify-content: space-between;
+    background-color:black;
+    font-size: 15px;
+}
+.icon-space{
+	padding: 14px 16px;
+	color: white;
+}
+.icon-space:hover{
+	background-color:#c7c1c1;
+	color: black;
+}
+.search-icon{
+	    color: white;
+    padding: 14px 19px;
+}
+.jane-date{
+	color: gray;
+}
+
+
+.search-icon:hover{
+	background:#c7c1c1;
+	color: black;
+}
+.jane-bloglife{
+	    text-align: center;
+    margin: 46px;
+    font-family:"jane";
+    font-size: 23px;
+}
+
+.jane-bloglife h1{
+	font-family: "jane";
+}
+.jane-world{
+	background: black;
+    border: 1px;
+    color: white;
+    font-family: "jane";
+    padding: 1px 8px;
+    font-size: 16px;
+}
+.cover{
+	background-image: url(../img/jane.jpg);
+	position: relative;
+    height: 860px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover-photo{
+	color: white;
+    padding-top: 300px;
+    padding-left: 30px;
+    font-family: "jane";
+}
+.cover-h1{
+	letter-spacing: 6px;
+    margin: 7px 0px;
+
+}
+.cover-h2{
+	font-size: 63px;
+    margin: 0px;
+    letter-spacing: 3px;
+
+}
+.subscribe{
+	background: #a19f9f;
+    padding: 16px 14px;
+    text-align: center;
+    color: black;
+    width: 110px;
+
+}
+.subscribe:hover{
+          background: #cbc3c3;
+}
+.heading{
+	   padding: 13px 0px;
+    text-align: center;
+}
+.title-heading{
+	width: 64%;
+    display: inline-block;
+    font-family:"jane";
+}
+.heading-img{
+	height: 100%;
+	width: 100%;
+}
+.heading-img img{
+	width: 100%;
+}
+.my-name{
+
+    display: inline-block;
+    width: 432px;
+    background: black;
+    color: white;
+
+}
+.my-name-discription{
+	padding: 0px 14px;
+    line-height: 1.5;
+
+}
+.heading-buttons{
+	    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+/*.heading-buttons p{
+	    border: 1px solid #c1b1b1;
+    border: 1px soll;
+    width: 72px;
+    text-align: center;
+    padding: 10px 0px;
+
+}*/
+.georage-container{
+	display: flex;
+}
+.georage-flex{
+	display: inline-block;
+	width: 90px;
+	height: 100px;
+	padding: 20px 0px;
+}
+.georage-img{
+	height: 100%;
+	width: 100%;
+}
+.georage-button{
+	    padding: 37px 50px;
+}
+.popular-posts{
+	display: flex;
+}
+.popular-paragraph p{
+	margin: 0;
+
+}
+.popular-paragraph{
+	padding: 15px 15px;
+}
+.popular-post-container{
+	background: white;
+	margin-top: 26px;
+	width: 432px;
+}
+.popular-post-container h2{
+	padding: 15px 15px;
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+.popular-posts{
+	padding: 10px 10px;
+}
+.advertise-button{
+	padding: 74px 160px;
+    margin: 21px 21px;
+    border: 0px;
+    margin-left: 18px;
+
+}
+.tags{
+	 padding: 6px 14px;
+}
+.tags-name{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 12px 5px;
+}
+
+.fashion-tags{
+   border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 9px 9px;
+}
+.newyork-tags{
+	background: #f1e1e1;
+    padding: 2px 5px;
+    margin: 7px 8px;
+
+}
+.grid-item img{
+	width:100%;
+	
+}
+.grid-item{
+	/*width: 202px;*/
+	padding: 4px 8px;
+}
+.grid-container{
+	display: flex;
+	flex-direction: row;
+}
+.follow-icons{
+	    padding: 13px 10px;
+    font-size: 22px;
+}
+.subscribe-input{
+	    width: 98%;
+    padding: 13px 0px;
+}
+.subscrbe-container{
+	 padding: 5px 20px;
+}
+.subscribe-button{
+	background: #f34b4b;
+    text-align: center;
+    padding: 13px 0px;
+    color: white;
+
+}
+.hat-man{
+	    width: 100%;
+    margin-top: 21px;
+}
+.footer-button p{
+	color: white;
+    background: black;
+    width: 8%;
+    padding: 15px 23px;
+    font-size: 14px;
+    margin: 0px;
+
+}
+.footer-icon{
+	    color: white;
+    padding: 0px 6px;
+}
+footer{
+	background: #817f81;
+    padding: 35px 42px;
+
+}
+.Replies-no{
+	margin-left: 9px;
+    background: #f1f1e6;
+    color: black;
+    padding: 3px 8px;
+}
+.reply-b2{
+	background: gray;
+	border:1px solid;
+	padding:11px 15px;
+	background-color: black;
+	color:white;
+
+}
+.reply-b2:hover{
+	background: gray;
+}
+.reply-b1{
+	padding: 10px 16px;
+    background: white;
+    border: 1px solid #cdb7b7;
+
+}
+.reply-b1:hover{
+	background-color: gray;
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.nav{
+		display: none;
+	}
+	.title-heading{
+		width: 100%;
+		display: block;
+	}
+
+	.myname-container{
+		display: block;
+	}
+	.title-container{
+		
+		flex-direction: column;
+	}
+	.my-name{
+		width: 97%;
+	}
+	.popular-post-container{
+		width: 97%;
+	}
+	.advertise-button {
+		padding: 48px 86px;
+	}
+	.footer-button p{
+		width: 45%;
+	}
+	.georage-container{
+		display: flex;
+		flex-direction: column;
+	}
+	.georage-button{
+		padding: 0px 0px;
+	}
+	.title{
+		margin: 5px 30px;
+	}
+	.myname-container{
+		margin: 35px 29px;
+	}
+	/*.grid-item img {
+    width: 125px;
+*/
+}
